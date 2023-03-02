@@ -1,0 +1,26 @@
+#app {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.canvas {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.row-container {
+  display: flex;
+}
+
+.pixel {
+  width: 25px;
+  height: 25px;
+  border: none;
+}
+
+.paint {
+  background-color: black;
+}
